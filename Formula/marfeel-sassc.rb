@@ -15,7 +15,7 @@ class MarfeelSassc < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
-  depends_on "libsass"
+  depends_on "marfeel-libsass"
 
   def install
     system "autoreconf", "-fvi"
