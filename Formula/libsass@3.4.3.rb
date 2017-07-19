@@ -1,4 +1,4 @@
-class MarfeelLibsass < Formula
+class LibsassAT3.4.3 < Formula
   desc "C implementation of a Sass compiler"
   homepage "https://github.com/sass/libsass"
   url "https://github.com/sass/libsass.git", :tag => "3.4.3", :revision => "b28de01270a663b3e89427a18816732c4d573c1d"

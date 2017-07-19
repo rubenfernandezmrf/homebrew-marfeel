@@ -1,8 +1,8 @@
-class MarfeelSassc < Formula
+class SasscAT3.4.1 < Formula
   desc "Wrapper around libsass that helps to create command-line apps"
-  homepage "https://github.com/rubenfernandezmrf/sassc"
-  url "https://github.com/rubenfernandezmrf/sassc.git", :tag => "3.4.1", :revision => "19d97ea089c558a07e61566142f59f88b7a1cc99"
-  head "https://github.com/rubenfernandezmrf/sassc.git"
+  homepage "https://github.com/sass/sassc"
+  url "https://github.com/sass/sassc.git", :tag => "3.4.1", :revision => "19d97ea089c558a07e61566142f59f88b7a1cc99"
+  head "https://github.com/sass/sassc.git"
 
   bottle do
     cellar :any
@@ -15,7 +15,7 @@ class MarfeelSassc < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
-  depends_on "marfeel-libsass"
+  depends_on "libsass@3.4.3"
 
   def install
     system "autoreconf", "-fvi"
