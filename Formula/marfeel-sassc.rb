@@ -1,4 +1,4 @@
-class Sassc < Formula
+class MarfeelSassc < Formula
   desc "Wrapper around libsass that helps to create command-line apps"
   homepage "https://github.com/rubenfernandezmrf/sassc"
   url "https://github.com/rubenfernandezmrf/sassc.git", :tag => "3.4.1", :revision => "19d97ea089c558a07e61566142f59f88b7a1cc99"
